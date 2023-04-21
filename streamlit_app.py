@@ -7,7 +7,7 @@ import numpy as np
 # st.write 命令被用作显示文字消息
 
 # 标题
-# st.header('st.button')
+st.header('st.button')
 
 # 如果点击了按钮 则显示Why hello there
 # 否则显示Goodbye
@@ -33,11 +33,11 @@ st.write(df)
 # sample 4，多个参数
 st.write('Below is a DataFrame:',df,'Above is a DataFrame.')
 # sample 5 显示图标
-df2 = pd.DataFrame(
-    np.random.randn(200,3),
-    columns=['a','b','c']
-)
-c = alt.Chart(df2).mark_circle().encode(
-    x = 'a', y = 'b' , size = 'c',tooltip = ['a','b','c']
-)
-st.write(c)
+# df2 = pd.DataFrame(
+#     np.random.randn(200,3),
+#     columns=['a','b','c']
+# )
+# c = alt.Chart(df2).mark_circle().encode(
+#     x = 'a', y = 'b' , size = 'c',tooltip = ['a','b','c']
+# )
+# st.write(c)
