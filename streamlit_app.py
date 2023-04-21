@@ -7,7 +7,7 @@ import numpy as np
 # st.write 命令被用作显示文字消息
 
 # 标题
-st.header('st.button')
+# st.header('st.button')
 
 # 如果点击了按钮 则显示Why hello there
 # 否则显示Goodbye
